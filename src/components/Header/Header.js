@@ -6,7 +6,7 @@ import './Header.css';
 const Header = () => {
     return (
         <nav className='header'>
-            <div className='nav-brand'>Theme Shop</div>
+            <div className='nav-brand'>Online Shop</div>
             <div>
                 <Link to="/shop">Shop</Link>
                 <Link to="/orders">Orders</Link>
