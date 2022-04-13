@@ -1,0 +1,98 @@
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+.login-form {
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid green;
+    padding: 40px 30px;
+}
+.form-title {
+    font-size: 35px;
+    font-weight: 500;
+    color: black;
+    margin-top: 0;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 30px;
+}
+.input-group label {
+    display: block;
+    margin-left: 5px;
+    font-size: 18px;
+}
+.input-group input {
+    width: 100%;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 16px;
+    padding: 5px 15px;
+    
+}
+.input-group input:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: green;
+}
+
+.form-submit {
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: green;
+}
+.form-link {
+    color: green;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.alternative-line {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.alternative-line::before {
+    content: '';
+    width: 45%;
+    height: 1px;
+    background-color: green;
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+.alternative-line::after {
+    content: '';
+    width: 45%;
+    height: 1px;
+    background-color: green;
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+
+.submit-google-btn {
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #000;
+}
+.submit-google-btn img {
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
