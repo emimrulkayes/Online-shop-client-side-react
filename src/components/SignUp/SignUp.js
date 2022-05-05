@@ -28,7 +28,8 @@ const SignUp = () => {
     if(user){
         navigate('/shop')
     }
- 
+    
+    // handle form user
     const handleCreateUser = event => {
         event.preventDefault();
         if(password !== confirmPassword){
@@ -42,8 +43,6 @@ const SignUp = () => {
 
         createUserWithEmailAndPassword(email, password);
     }
-
-   
 
     return (
         <div className='form-container'>
